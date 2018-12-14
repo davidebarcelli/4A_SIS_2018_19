@@ -42,6 +42,12 @@ from tkinter import *
 # creazione di una finestra
 root = Tk()
 
+# creo un testo
+l = Label(root, text="ciaociao")
+# dico di visualizzarlo
+l.pack()
+
 # inizio del ciclo infinito di ascolto degli eventi
 root.mainloop()
+
 
