@@ -24,11 +24,15 @@ for i in range(0,a):
 	print("i="+str(i)+", a="+str(a))
 # notate che anche modificando il valore di a il ciclo esegue 10 volte, perche'?
 # perche' il range viene generato all'inizio, in fatti si potrebbe anche scrivere
-
 a=10
 r = range(0,a)
 for i in r:
 	a=a-1
 	print("i="+str(i)+", a="+str(a))
 
-
+# una cosa importante che si puo' fare con python sono le funzioni
+def somma(a,b):
+	return a+b
+#per chiamarle e' facile
+b=somma(4,5)
+print(b)
