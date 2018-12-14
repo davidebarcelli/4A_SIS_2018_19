@@ -36,3 +36,12 @@ def somma(a,b):
 #per chiamarle e' facile
 b=somma(4,5)
 print(b)
+
+# libreria grafica in Python
+from tkinter import *
+# creazione di una finestra
+root = Tk()
+
+# inizio del ciclo infinito di ascolto degli eventi
+root.mainloop()
+
