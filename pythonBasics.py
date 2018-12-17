@@ -38,7 +38,7 @@ b=somma(4,5)
 print(b)
 
 # libreria grafica in Python
-from tkinter import *
+from Tkinter import *
 # creazione di una finestra
 root = Tk()
 
